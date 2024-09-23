@@ -5,4 +5,7 @@
 
 ### 컴파일러 설치
 
-`npm i typescript` 설치해준다.
+`sudo npm i typescript -g` 전역으로 설치 해준다.
+
+설치가 완료되면 터미널에 tsc -v 를 입력해서 버전을 확인하고
+상단 `section1 src index.tsx 부분 부터 시작하면 된다.`

@@ -1,0 +1,16 @@
+{
+  "include": ["src"], // src 안에 있는 모든 파일이 컴파일 대상이 된다.
+  "compilerOptions": {
+    "target": "ESNext",
+    // ts 컴파일을 맞치고 js 파일을 만들때 어떤 버전으로 만들지 고르는 란이다.
+    // ESNext 는 javascript 최신버전을 의미한다.
+    "module": "ESNext", // CommonJs -> require, ESNext -> import 
+    "outDir": "dist", // 컴파일 결과 js 파일들 위치 설정
+    "strict": true, // TypeScript 가 얼마나 검사를 강력하게 하는지 설정
+    "skipLibCheck": true, 
+    // d.ts 확장자를 갖는 파일의 타입 검사를 생략, 
+    // @types 버전 20버전 이상업데이트 되면서 발생한 오류
+    "moduleDetection": "force", // TypeScript 각각의 파일을 어떻게 볼것인지. 
+    // 컴파일시, 중복 루트는 export {} 를 추가하여, 독립성 확보한다.
+  },
+}

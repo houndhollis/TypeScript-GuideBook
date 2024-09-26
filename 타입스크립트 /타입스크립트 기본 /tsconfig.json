@@ -6,6 +6,7 @@
     "module": "ESNext",
     "outDir": "dist",
     "moduleDetection": "force",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strictNullChecks": false
   }
 }

@@ -9,6 +9,8 @@ function func2(): void {
   // 아무것도 반환하지 않는 함수
 }
 
+// 추가 자바스크립트는 실젯값이 반환되지 않는 경우 기본으로 undefined를 반환한다.
+
 let a: void;
 // a = '1'
 // a = 1

@@ -18,3 +18,5 @@
 이후 옵션 설명은 tsconfig.json 파일에서 진행하겠다.
 
 추가 include 추가한 이후, 터미널에 `tsc`를 입력하면 모든 해당 include 하위 ts파일들은 실행이 된다.
+
+### tsconfig 파일 참고

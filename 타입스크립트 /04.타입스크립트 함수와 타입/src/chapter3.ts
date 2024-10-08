@@ -20,6 +20,8 @@ a = b; // number
 // 기준2. 매개변수가 호환되는가
 // 2-1. 매개변수의 개수가 같을 때
 
+// C, D 는 함수타입 표현식
+// D2 는 호출 시그니쳐 방식으로 풀이,
 type C = (value: number) => void;
 type D = (value: number) => void;
 type D2 = {
@@ -58,7 +60,7 @@ let dogFunc = (dog: Dog) => {
 };
 
 /**
- * animalFunc = dogFunc; 이거는 안된다 64~67 줄과 같다.
+ * animalFunc = dogFunc; 이거는 안된다 66~68 줄과 같다.
   dogFunc =animalFunc  아래는 된다
 
   let testFunc = (animal: Animal) => {

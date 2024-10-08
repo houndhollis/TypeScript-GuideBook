@@ -60,7 +60,7 @@ let book: Book = {
   price: 100,
 };
 
-let proBook = {
+let proBook: ProgrammingBook = {
   name: "react",
   price: 150,
   skills: "js",

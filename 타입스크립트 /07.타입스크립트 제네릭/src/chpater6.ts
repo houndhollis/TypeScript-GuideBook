@@ -2,7 +2,7 @@
  * 프로미스
  */
 
-const promise = new Promise((resolve, reject) => {
+const promise = new Promise<number>((resolve, reject) => {
   // 프로미스 생성자를 호출할 때 비동기 작업의 결과값을 타입변수에 할당해주면
   // 아래 response 의 타입이 추론이된다.
   setTimeout(() => {
